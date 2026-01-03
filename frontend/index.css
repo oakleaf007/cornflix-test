@@ -786,14 +786,13 @@ a{
     color: inherit;
 }
 /* more */
-/* Outer container centers the square vertically & horizontally */
+
 .more {
    
     padding: 10px;
   display: flex;
-  justify-content: center; /* horizontal centering */
-  align-items: center;     /* vertical centering */
-            /* parent height, adjust as needed */
+  justify-content: center; 
+  align-items: center;    
 }
 
 /* Link wrapper */

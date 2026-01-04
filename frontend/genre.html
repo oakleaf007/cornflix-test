@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Genre</title>
-  <link rel="stylesheet" href="./genre.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./home.css">
+  <link rel="stylesheet" href="./loader.css">
+  <link rel="icon" type="image/svg" href="./favicon.svg" sizes="64x64">
+  <title>CORN FLIX</title>
 </head>
 <body>
 
-  <header class="genre-header">
-    <h1 id="genre-title">Genre</h1>
-    <p>movies by genre</p>
-  </header>
+<header class="header">
+  <h2 id="genre-title">Genre</h2>
+</header>
 
-  <main class="movie-grid">
-    <div class="movie-card">
-      <img  alt="Movie">
-      <h3>Movie Title</h3>
-    </div>
+<!-- Genre dropdown -->
+<div class="genre-select-wrapper">
+  <select id="genre-select">
+    <option value="action">Action</option>
+    <option value="comedy">Comedy</option>
+    <option value="horror">Horror</option>
+    <option value="romance">Romance</option>
+  </select>
+</div>
 
-    <div class="movie-card">
-      <img alt="Movie">
-      <h3>Movie Title</h3>
-    </div>
+<!-- Reuse existing layout -->
+<div class="movie-container">
+  <div class="movie-card">
+    <h3>Movie Name</h3>
+  </div>
 
-    <div class="movie-card">
-      <img  alt="Movie">
-      <h3>Movie Title</h3>
-    </div>
-  </main>
+  <div class="movie-card">
+    <h3>Movie Name</h3>
+  </div>
+</div>
 
-  <script src="./genre.js"></script>
+<script src="./genre.js"></script>
 </body>
 </html>
